@@ -7,6 +7,7 @@ I'm a data analyst working in Power BI, SQL, Excel and Python, bringing 14 years
 On the site:
 - **Retail Sales Analytics** (Power BI)
 - **Customer Retention Analytics** (Power BI)
+- **Retail Sales: Exploratory Data Analysis** (SQL)
 - My CV, skills and contact details
 
 Project code and files live in my other repositories: https://github.com/teejay-data-io

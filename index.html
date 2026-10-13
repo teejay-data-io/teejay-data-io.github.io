@@ -71,7 +71,7 @@
 <section class="section" id="projects" aria-labelledby="projects-h">
   <div class="wrap">
     <h2 id="projects-h">Projects</h2>
-    <p class="lede">End-to-end Power BI builds: raw data, Power Query, a clean data model, DAX measures, and a dashboard checked against the source before anyone sees it.</p>
+    <p class="lede">End-to-end Power BI builds: raw data, Power Query, a clean data model, DAX measures, and a dashboard checked against the source before anyone sees it. Plus SQL analysis in MySQL, straight on the raw data.</p>
 
     <article class="project">
       <div class="shots"><a class="shot" href="img/retail-dashboard.jpg"><img src="img/retail-dashboard.jpg" width="1244" height="692" alt="Retail Sales Analytics dashboard in Power BI: total revenue, orders, customers, average order value, revenue by month and quarter, campaign ROI" loading="lazy"></a></div>
@@ -120,6 +120,30 @@
         </ul>
         <p class="note">As an accountant, my first question after the churn rate was "what does it cost?" The answer: $139,131 a month, about $1.67M a year.</p>
         <a class="link" href="https://github.com/teejay-data-io/Data_Analysis_Portfolio/tree/main/PowerBi/Customer%20Retention%20Analysis">See the project on GitHub <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="shots"><a class="shot" href="img/sql-revenue-by-category.png"><img src="img/sql-revenue-by-category.png" width="982" height="571" alt="MySQL Workbench: revenue by product category query and its result, Sports &amp; Outdoors first" loading="lazy"></a></div>
+      <div class="project-body">
+        <p class="kicker">SQL · Retail</p>
+        <h3>Retail Sales: Exploratory Data Analysis (SQL)</h3>
+        <p class="q">Exploring 1,000,000 retail sales transactions in MySQL to answer core business questions on revenue, products, customers, stores, seasonality and marketing.</p>
+        <ul class="tags" aria-label="Tools"><li>MySQL 8</li><li>Joins</li><li>CASE</li><li>Aggregations</li><li>Subqueries</li><li>Date functions</li><li>Star schema</li></ul>
+        <dl class="kpis">
+          <div><dt>Orders</dt><dd>1,000,000</dd></div>
+          <div><dt>Customers</dt><dd>99,996</dd></div>
+          <div><dt>Avg order value</dt><dd>2,750.87</dd></div>
+          <div><dt>Tables</dt><dd>1 fact + 5 dims</dd></div>
+        </dl>
+        <h4>What I found</h4>
+        <ul class="insights">
+          <li><strong>Sports &amp; Outdoors is the top category</strong> at 461.7M from 167,642 orders, but only about 5.3M ahead of the last category, Clothing.</li>
+          <li><strong>Q3 is the strongest quarter</strong> at 940.06M (341,796 transactions); Q1 is the weakest at 355.5M.</li>
+          <li><strong>Campaign returns vary widely.</strong> New Arrival Showcase returned 288.95 per budget dollar, Countdown to Savings only 58.14.</li>
+        </ul>
+        <p class="note">This is the SQL side of my Retail Sales Analytics dashboard: I profiled the data, calculated the KPIs (total revenue 2,750,874,594.76) and answered the business questions in MySQL before building the dashboard in Power BI.</p>
+        <a class="link" href="https://github.com/teejay-data-io/Data_Analysis_Portfolio/tree/main/SQL/01-Exploratory-Analysis/Retail-Sales">View on GitHub <span aria-hidden="true">→</span></a>
       </div>
     </article>
 
