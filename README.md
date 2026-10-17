@@ -1,4 +1,4 @@
-# Tajudeen (TJ) Rabiu | Data Analyst Portfolio
+# Tajudeen Olugbenga Rabiu | Data Analyst Portfolio
 
 My personal portfolio site: **https://teejay-data-io.github.io/**
 
