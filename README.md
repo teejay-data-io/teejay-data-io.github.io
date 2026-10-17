@@ -2,7 +2,7 @@
 
 My personal portfolio site: **https://teejay-data-io.github.io/**
 
-I'm a data analyst working in Power BI, SQL, Excel and Python, bringing an accounting background to finance and business data.
+I'm a data analyst working in Power BI, SQL, Excel and Python, bringing what I learned in years as an accountant to finance and business data.
 
 On the site:
 - **Retail Sales Analytics** (Power BI)
